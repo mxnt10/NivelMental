@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Mentalista - ID3</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <title>
+    Nível Mental - Imersão Dev
+  </title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">Nível Mental</h1>
+    <h1 class="page-title" style="font-size: 16px;">
+      <label style="color: #ffff00;">Status:</label>
+      <label class="color" id="st">Não definido</label>
+    </h1>
+    <br />
+    <p class="page-subtitle">
+      <label>Digite um número de 0 a</label>
+      <label id="modify">20</label>
+      <label>- tentativas:</label>
+      <label id="tent">20</label>
+    </p>
+    <input type="number" id="valor" onkeypress="Descobre(event.keyCode)" /><br>
+    <button type="submit" onclick="Chutar()">Chutar</button>
+  </div>
+  <h2 class="resultado" id="resultado">Bem-Vindo!</h2>
+  <div class="res">
+    <label>Dificuldade -></label>
+    <label>
+      <input type="radio" name="atributo" value="0" onclick="Dificuldade()" checked="checked" />Casual
+    </label>
+    <label>
+      <input type="radio" name="atributo" value="1" onclick="Dificuldade()" />Humano
+    </label>
+    <label>
+      <input type="radio" name="atributo" value="2" onclick="Dificuldade()" />Astro
+    </label>
+    <label>
+      <input type="radio" name="atributo" value="3" onclick="Dificuldade()" />Vidente
+    </label>
+    <label>
+      <input type="radio" name="atributo" value="4" onclick="Dificuldade()" />Alien
+    </label>
+    <label>
+      <input type="radio" name="atributo" value="5" onclick="Dificuldade()" />5ª Dimensão
+    </label>
+    <label>
+      <input type="radio" name="atributo" value="6" onclick="Dificuldade()" />11ª Dimensão
+    </label>
+    <label>
+      <input type="radio" name="atributo" value="7" onclick="Dificuldade()" />Hasta la Vista
+    </label>
+    <label>
+      <input type="radio" name="atributo" value="8" onclick="Dificuldade()" />Infinito
+    </label>
+  </div>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
